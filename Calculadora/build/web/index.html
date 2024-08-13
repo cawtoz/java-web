@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img src="https://www.uts.edu.co/sitio/wp-content/uploads/2021/02/Logo-UTS-1-768x458.png" width="300">
+        <form action="resultado.jsp" method="POST">
+           <label for="n1">Numero 1</label> 
+           <input name="n1" id="n1" type="number" required>
+           <br>
+           <label for="n2">Numero 2</label> 
+           <input name="n2" id="n2" type="number" required>
+           <br>
+           <input name="operacion" id="suma" type="radio" checked="checked">
+           <label for="suma">Suma</label>
+           <br>
+           <input name="operacion" id="resta" type="radio">
+           <label for="resta">Resta</label>
+           <br>
+           <input name="operacion" id="multiplicacion" type="radio">
+           <label for="multiplicacion">Multiplicacion</label>
+           <br>
+           <input name="operacion" id="division" type="radio">
+           <label for="division">Division</label>
+           <br>
+           <input name="operacion" id="residuo" type="radio">
+           <label for="residuo">Residuo</label>
+           <br>
+           <button>Calcular</button>
+        </form>
+    </body>
+</html>
