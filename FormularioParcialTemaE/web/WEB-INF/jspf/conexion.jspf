@@ -1,0 +1,8 @@
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
+<%@ page pageEncoding="UTF-8" %>
+<sql:setDataSource
+    var="universidad"
+    driver="org.apache.derby.jdbc.ClientDriver"
+    url="jdbc:derby://localhost:1527/parcial_e"
+    user="root"
+    password="1234"/>
